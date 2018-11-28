@@ -9,7 +9,6 @@ const httprequest = require('request');
 var mongoose = require('mongoose'),
 audit = mongoose.model('audit');
 
-
 var globalamt ={};
 
 var Alexa = require("alexa-sdk");
